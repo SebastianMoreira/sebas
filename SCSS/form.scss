@@ -1,0 +1,80 @@
+body{
+    background-color: #000000;
+}
+.navbar{
+    justify-content: end !important;
+    animation-name: navBackgraund;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes navBackgraund{
+    
+    0%{
+        background-color: rgb(25, 221, 255);
+    }
+    25%{
+        background-color: rgb(216, 70, 230);
+    }
+    50%{
+        background-color: rgb(25, 221, 255);
+    }
+    75%{
+        background-color: rgb(216, 70, 230);
+    }
+    100%{
+        background-color: rgb(25, 221, 255);
+    }
+}
+label{
+    color: rgb(157, 211, 50);
+    font-size: 1.4rem;
+}
+#formMagic{
+    width: 99%;
+    border: 5px solid rgb(216, 70, 230);
+    border-radius: 0.8rem;
+    animation: formMagic 4s infinite;
+    margin: 4rem 0.5% 6rem 0.5%;
+}
+@keyframes formMagic {
+    0%{
+        border: 3px solid rgb(25, 221, 255);
+    }
+    25%{
+        border: 3px solid rgb(216, 70, 230);
+    }
+    50%{
+        border: 3px solid rgb(25, 221, 255);
+    }
+    75%{
+        border: 3px solid rgb(216, 70, 230);
+    }
+    100%{
+        border: 3px solid rgb(25, 221, 255);
+    }
+}
+.form_div--color{
+    animation: buttomMagic 4s infinite;
+    color: #000000;
+    justify-content: end !important;
+}
+@keyframes buttomMagic {
+    0%{
+        background-color: rgb(25, 221, 255);
+    }
+    25%{
+        background-color: rgb(216, 70, 230);
+    }
+    50%{
+        background-color: rgb(25, 221, 255);
+    }
+    75%{
+        background-color: rgb(216, 70, 230);
+    }
+    100%{
+        background-color: rgb(25, 221, 255);
+    }
+}
+.form-check-input{
+    size: 1.4rem;
+}

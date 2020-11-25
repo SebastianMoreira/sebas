@@ -1,0 +1,17 @@
+$colorText: rgb(157, 211, 50);
+@mixin tipografia {
+    color: rgb(157, 211, 50);
+    font-size: 1.4rem;}
+.div_p--estilo{
+    @include tipografia
+}
+$size:1rem;
+.div_h4--estilo{
+    font-size: ($size*2)+0.2rem;
+    color: rgb(157, 211, 50);
+    text-decoration: underline;
+}
+#contactoTable{
+    margin-top: $size*4;
+    margin-bottom: $size*4;
+}

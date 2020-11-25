@@ -1,0 +1,115 @@
+/*formulario*/
+@import "form";
+/*productos*/
+@import "productos";
+/*localizacián*/
+@import "localizacion";
+/*Contacto*/
+@import "contacto";
+/*header-nav-index*/
+.body-nav-index{
+    background-color: #000000;
+}
+.paddingNav{
+    padding: 0.8rem 0px 0.8rem 0px;
+}
+.no-gutters{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.nav-link{
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.8rem !important;
+    color: rgb(0, 0, 0) !important;
+}
+.nav-link :hover{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 1rem;
+}
+.navbar{
+    justify-content: end !important;
+    animation-name: navBackgraund;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes navBackgraund{
+    
+    0%{
+        background-color: rgb(25, 221, 255);
+    }
+    25%{
+        background-color: rgb(216, 70, 230);
+    }
+    50%{
+        background-color: rgb(25, 221, 255);
+    }
+    75%{
+        background-color: rgb(216, 70, 230)
+    }
+    100%{
+        background-color: rgb(25, 221, 255);
+    }
+}
+/*tittle-row-index*/
+.tittlePrimaryIndex{
+    padding-top: 4.5rem;
+    .tittleIndex{
+        color: rgb(157, 211, 50);
+        font-size: 2rem;
+        font-family: 'Lobster Two', cursive;
+        text-align: center;
+    }
+    .tittleRowIndex{
+        font-family: 'Lobster Two', cursive;
+        color: rgb(157, 211, 50);
+        font-size: 1.6rem;
+        padding: 2rem 1rem 1rem 1rem;
+    }
+}
+/*tabla-index*/
+@media only screen and(min-width: 768px)
+{
+    table,th,tr,td{
+        border-collapse: collapse;
+        border: 1px solid rgb(157, 211, 50);
+        color: rgb(157, 211, 50);
+        font-family: 'Lobster Two', cursive;
+        margin-top: 5rem;
+    }
+}
+table,th,tr,td{
+    border-collapse: collapse;
+    border: 2px solid rgb(157, 211, 50);
+    color: rgb(157, 211, 50);
+    padding: 30px;
+    font-size: 28px;
+    font-family: 'Lobster Two', cursive;
+    margin: auto 8% auto 8%;
+}
+/*imagenes de cartas*/
+.fatherCards{
+    margin: 5rem 4% auto 4%;
+}
+.card{
+    display: inline-block;
+    margin: 2rem 3rem 1rem 3rem;
+    border: 2px solid rgb(157, 211, 50);
+    color: rgb(157, 211, 50);
+    font-family: 'Lobster Two', cursive;
+    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+    background-color: #000000;
+}
+/*footer-inex*/
+.footer{
+    height: 20rem;
+}
+.footer-div-h2{
+    font-size: 1.6rem;
+    font-family: 'Lobster Two', cursive;
+    margin-bottom: 0.6rem;
+}
+.logos{
+    width: 1.8rem;
+    height: 1.8rem;
+}

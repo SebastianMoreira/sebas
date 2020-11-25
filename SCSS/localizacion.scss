@@ -1,0 +1,22 @@
+#containerMaps{
+    display: grid;
+    width: 95%;
+    margin: 4rem 2.5% 1rem 2.5rem;
+    border: 3px solid  rgb(216, 70, 230);
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "map1 map2"
+                         "map3 map4"; 
+}
+#map1{
+    grid-area: map1;
+}
+#map2{
+    grid-area: map2;
+}
+#map3{
+    grid-area: map3;
+}
+#map{
+    grid-area: map4;
+}

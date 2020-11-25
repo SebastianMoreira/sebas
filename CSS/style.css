@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/*formulario*/
+body {
+  background-color: #000000; }
+
+.navbar {
+  justify-content: end !important;
+  animation-name: navBackgraund;
+  animation-duration: 4s;
+  animation-iteration-count: infinite; }
+
+@keyframes navBackgraund {
+  0% {
+    background-color: #19ddff; }
+  25% {
+    background-color: #d846e6; }
+  50% {
+    background-color: #19ddff; }
+  75% {
+    background-color: #d846e6; }
+  100% {
+    background-color: #19ddff; } }
+
+label {
+  color: #9dd332;
+  font-size: 1.4rem; }
+
+#formMagic {
+  width: 99%;
+  border: 5px solid #d846e6;
+  border-radius: 0.8rem;
+  animation: formMagic 4s infinite;
+  margin: 4rem 0.5% 6rem 0.5%; }
+
+@keyframes formMagic {
+  0% {
+    border: 3px solid #19ddff; }
+  25% {
+    border: 3px solid #d846e6; }
+  50% {
+    border: 3px solid #19ddff; }
+  75% {
+    border: 3px solid #d846e6; }
+  100% {
+    border: 3px solid #19ddff; } }
+
+.form_div--color {
+  animation: buttomMagic 4s infinite;
+  color: #000000;
+  justify-content: end !important; }
+
+@keyframes buttomMagic {
+  0% {
+    background-color: #19ddff; }
+  25% {
+    background-color: #d846e6; }
+  50% {
+    background-color: #19ddff; }
+  75% {
+    background-color: #d846e6; }
+  100% {
+    background-color: #19ddff; } }
+
+.form-check-input {
+  size: 1.4rem; }
+
+/*productos*/
+.list-group-item {
+  background-color: #000000 !important; }
+
+/*localizacián*/
+#containerMaps {
+  display: grid;
+  width: 95%;
+  margin: 4rem 2.5% 1rem 2.5rem;
+  border: 3px solid #d846e6;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas: "map1 map2" "map3 map4"; }
+
+#map1 {
+  grid-area: map1; }
+
+#map2 {
+  grid-area: map2; }
+
+#map3 {
+  grid-area: map3; }
+
+#map {
+  grid-area: map4; }
+
+/*Contacto*/
+.div_p--estilo {
+  color: #9dd332;
+  font-size: 1.4rem; }
+
+.div_h4--estilo {
+  font-size: 2.2rem;
+  color: #9dd332;
+  text-decoration: underline; }
+
+#contactoTable {
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+
+/*header-nav-index*/
+.body-nav-index {
+  background-color: #000000; }
+
+.paddingNav {
+  padding: 0.8rem 0px 0.8rem 0px; }
+
+.no-gutters {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.nav-link {
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.8rem !important;
+  color: black !important; }
+
+.nav-link :hover {
+  background-color: #000000;
+  color: white;
+  border-radius: 1rem; }
+
+.navbar {
+  justify-content: end !important;
+  animation-name: navBackgraund;
+  animation-duration: 4s;
+  animation-iteration-count: infinite; }
+
+@keyframes navBackgraund {
+  0% {
+    background-color: #19ddff; }
+  25% {
+    background-color: #d846e6; }
+  50% {
+    background-color: #19ddff; }
+  75% {
+    background-color: #d846e6; }
+  100% {
+    background-color: #19ddff; } }
+
+/*tittle-row-index*/
+.tittlePrimaryIndex {
+  padding-top: 4.5rem; }
+  .tittlePrimaryIndex .tittleIndex {
+    color: #9dd332;
+    font-size: 2rem;
+    font-family: 'Lobster Two', cursive;
+    text-align: center; }
+  .tittlePrimaryIndex .tittleRowIndex {
+    font-family: 'Lobster Two', cursive;
+    color: #9dd332;
+    font-size: 1.6rem;
+    padding: 2rem 1rem 1rem 1rem; }
+
+/*tabla-index*/
+@media only screen and (min-width: 768px) {
+  table, th, tr, td {
+    border-collapse: collapse;
+    border: 1px solid #9dd332;
+    color: #9dd332;
+    font-family: 'Lobster Two', cursive;
+    margin-top: 5rem; } }
+
+table, th, tr, td {
+  border-collapse: collapse;
+  border: 2px solid #9dd332;
+  color: #9dd332;
+  padding: 30px;
+  font-size: 28px;
+  font-family: 'Lobster Two', cursive;
+  margin: auto 8% auto 8%; }
+
+/*imagenes de cartas*/
+.fatherCards {
+  margin: 5rem 4% auto 4%; }
+
+.card {
+  display: inline-block;
+  margin: 2rem 3rem 1rem 3rem;
+  border: 2px solid #9dd332;
+  color: #9dd332;
+  font-family: 'Lobster Two', cursive;
+  padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+  background-color: #000000; }
+
+/*footer-inex*/
+.footer {
+  height: 20rem; }
+
+.footer-div-h2 {
+  font-size: 1.6rem;
+  font-family: 'Lobster Two', cursive;
+  margin-bottom: 0.6rem; }
+
+.logos {
+  width: 1.8rem;
+  height: 1.8rem; }
